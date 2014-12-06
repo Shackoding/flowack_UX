@@ -1,0 +1,190 @@
+/* ==========================================================================
+HTML5 display definitions
+========================================================================== */
+
+
+
+/* ==========================================================================
+ Fonts
+========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+ Global
+========================================================================== */
+
+
+
+
+/* ==========================================================================
+ Body
+========================================================================== */
+
+body {
+    background-color: #2980b9;
+    font: 400 1em/1.38 Helvetica;
+    color: rgb(0, 0, 0);
+}
+
+.element {
+    position: relative;
+    float: left;
+    border-radius: 12px;
+}
+
+.image {
+    display: block;
+    float: left;
+    height: auto;
+    overflow: hidden;
+}
+
+.text {
+    float: left;
+    font-weight: 400;
+    line-height: 1.38;
+    color: rgb(0, 0, 0);
+}
+
+._input {
+    display: block;
+    position: relative;
+    float: left;
+    height: 42px;
+    padding: 0 10px;
+    border-radius: 12px;
+    background-color: rgb(242, 242, 242);
+    font-size: 0.813em;
+    font-weight: 400;
+    line-height: 1.38;
+    color: rgb(0, 0, 0);
+}
+
+.element-1 {
+    clear: both;
+    z-index: 1;
+    width: 27.25%;
+    height: 267px;
+    margin: 24px 0 0 36.16016%;
+    border: 1px solid rgb(124, 120, 120);
+    background-color: rgb(254, 254, 254);
+}
+
+.element-2 {
+    z-index: 5;
+    width: 23.9166666666%;
+    height: 37px;
+    margin: -78px 0 0 37.91146%;
+    background-color: #3498db;
+}
+
+.image-1 {
+    width: 268px;
+    margin: 54px 0 0 38.83203%;
+}
+
+.image-2 {
+    position: relative;
+    clear: both;
+    z-index: 9;
+    width: 104px;
+    margin: 10px 0 0 39.38151%;
+}
+
+.image-3 {
+    position: relative;
+    z-index: 10;
+    width: 98px;
+    margin: 3px 0 0 1.94922%;
+}
+
+.text-1 {
+    position: relative;
+    clear: both;
+    z-index: 2;
+    width: 27.2010416666%;
+    min-height: 44px;
+    margin: -239px 0 0 37.89714%;
+    font-size: 1em;
+}
+
+.text-2 {
+    position: relative;
+    z-index: 6;
+    width: 10.5%;
+    min-height: 27px;
+    margin: -71px 0 0 45.24089%;
+    font-size: 1em;
+}
+
+.text-3 {
+    position: relative;
+    z-index: 11;
+    width: 13.4322916666%;
+    min-height: 32px;
+    margin: -31px 0 0 40.3242199999%;
+    font-size: 0.75em;
+}
+
+.text-4 {
+    position: relative;
+    clear: both;
+    z-index: 7;
+    width: 13.4330729166%;
+    min-height: 32px;
+    margin: -32px 0 0 50.0742199999%;
+    font-size: 0.75em;
+}
+
+.text-5 {
+    width: 26.4%;
+    min-height: 33px;
+    margin: 12px 0 0 38.4492199999%;
+    font-size: 1em;
+}
+
+._input-1 {
+    z-index: 4;
+    width: 24%;
+    margin: -195px 0 0 37.78255%;
+}
+
+._input-2 {
+    z-index: 3;
+    width: 23.9166666666%;
+    margin: -137px 0 0 37.90755%;
+}
+
+.text a {
+    font-family: Raleway;
+}
+
+.text span {
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 0.875em;
+    font-weight: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.text-1 a {
+    font-style: normal;
+    font-size: 1.125em;
+    font-weight: 600;
+    color: rgb(47, 46, 46);
+}
+
+.text-2 a {
+    font-style: inherit;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.text-3 a, .text-4 a {
+    font-style: inherit;
+    font-size: 1.083em;
+    font-weight: inherit;
+}
